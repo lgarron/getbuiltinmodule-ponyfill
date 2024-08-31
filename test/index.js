@@ -1,5 +1,5 @@
-import { getBuiltinModule } from "../index.js";
 import assert from "node:assert";
+import { getBuiltinModule } from "../index.js";
 
 // Fails in `node` but not `bun`?
 // const assert1 = await getBuiltinModule("node:assert");
